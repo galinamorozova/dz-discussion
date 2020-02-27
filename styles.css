@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 800px;
+    height: 600px;
+}
+.main {
+    overflow: auto;
+    width: 800px;
+    height: 530px;
+    background-color: #23395B;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.header{
+    height: 70px;
+    width: 92%;
+    background-color: #8EA8C3;
+    color: #ACD5E2;
+    float: left;
+    border-bottom: 3px solid black;
+}  
+.header > span, h1 {
+    margin-left: 10px;
+}
+img {
+    width: 50px;
+    height: 50px;
+    background-color: #8EA8C3;
+    border-color: #8EA8C3;
+}
+button {
+    width: 60px;
+    height: 60px;
+    background-color: #8EA8C3;
+    border-color: #8EA8C3;
+    cursor: pointer;
+}
+.button {
+    height: 70px;
+    background-color: #8EA8C3;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+}
+.main div {
+    width: 650px;
+}
+.main > .icon {
+    width: 150px;
+}
+.icon > span {
+    padding-top: 13px;
+    margin-left: 10px;
+    margin-right: 5px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #8EA8C3;
+    color: #ACD5E2;
+}
+.icon > p {
+    margin: 5px 3px 3px 3px;
+    color: #ACD5E2;
+}
+.message, .icon {
+    height: 120px;
+}
+.icon {
+    padding-top: 30px;
+    border-right: 3px solid black;
+    background-color: #23395B;
+}
+.message > span {
+    display: inline-block;
+    margin: 5px 5px 2px 7px;
+    color: #ACD5E2;
+}
+.message > p {
+    margin: 0 7px 7px 7px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #406E8E;
+    color: #ACD5E2;
+}
